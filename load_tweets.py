@@ -250,7 +250,7 @@ def insert_tweet(connection,tweet):
             'country_code':tweet.get('country_code', None),
             'state_code':tweet.get('state_code', None),
             'lang':tweet.get('lang', None),
-            'place_name':tweet.get('place_name', None),
+            'place_name':tweet.get('place_name',None),
             'geo':None
             })
 
